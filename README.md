@@ -2,7 +2,6 @@
 
 Esse projeto está em desenvolvimento, esse repositório se refere ao front-end da aplicação e futuramente ela será integrada com o back-end que utiliza o Strapi e o PostgreSQL.
 
-#
 
 ## 🔧 Tecnologias/Ferramentas
 
