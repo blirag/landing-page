@@ -7,8 +7,19 @@ describe('<Footer />', () => {
     const { container } = renderTheme(<Footer html={'<h1>Olá</h1>'} />);
     expect(screen.getByRole('heading', { name: 'Olá' })).toBeInTheDocument();
     expect(container).toMatchInlineSnapshot(`
+      .c4 {
+        font-size: 2.4rem;
+      }
+
+      .c2 {
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 3.2rem;
+      }
+
       .c0 {
         text-align: center;
+        border-top: 0.1rem solid #DDDDDD;
       }
 
       .c0 a {
@@ -18,14 +29,13 @@ describe('<Footer />', () => {
         font-size: 1.6rem;
       }
 
-      .c2 {
-        font-size: 2.4rem;
+      .c0 .c3 {
+        font-size: 1.6rem;
       }
 
-      .c1 {
-        max-width: 120rem;
-        margin: 0 auto;
-        padding: 3.2rem;
+      .c0 .c1 {
+        padding-top: 0;
+        padding-bottom: 0;
       }
 
       <div>
@@ -33,10 +43,10 @@ describe('<Footer />', () => {
           class="c0"
         >
           <div
-            class="c1"
+            class="c1 c2"
           >
             <div
-              class="c2"
+              class="c3 c4"
             >
               <h1>
                 Olá

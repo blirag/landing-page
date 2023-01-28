@@ -1,11 +1,8 @@
-import * as Styled from './styles';
-
-import { Heading } from '../../components/Heading';
-
-import config from '../../config';
+import { Base } from '../Base';
+import { mockBase } from '../Base/mock';
 
 function Home() {
-  return <Heading>ola mundo</Heading>;
+  return <Base {...mockBase} />;
 }
 
 export default Home;
