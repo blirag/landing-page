@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+
+    "title": "home",
+    "slug": "home",
+    "createdAt": "2022-12-09T23:55:55.028Z",
+    "updatedAt": "2022-12-12T20:29:10.867Z",
+    "publishedAt": "2022-12-10T00:09:23.058Z",
+    "footer_text": "Feito com ❤ por Otávio Miranda",
+    "sections": [
+      {
+        "id": 1,
+        "__component": "section.section-two-columns",
+        "title": "JANUARY BRINGS US FIREFOX 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "image": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "name": "javascript.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1030,
+              "height": 730,
+              "formats": null,
+              "hash": "javascript_7aaa074699",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 30.31,
+              "url": "https://res.cloudinary.com/teste-blirag/image/upload/v1670629973/javascript_7aaa074699.svg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "javascript_7aaa074699",
+                "resource_type": "image"
+              },
+              "createdAt": "2022-12-09T23:53:01.204Z",
+              "updatedAt": "2022-12-09T23:53:01.204Z"
+            }
+          }
+        },
+        "metadata": {
+          "id": 1,
+          "name": "home",
+          "section_id": "home",
+          "background": true
+        }
+      },
+      {
+        "id": 1,
+        "__component": "section.section-content",
+        "title": "NEWS COVERAGE AND SOME SURPRISES",
+        "content": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\n\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\n\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
+        "metadata": {
+          "id": 3,
+          "name": "intro",
+          "section_id": "intro",
+          "background": false
+        }
+      },
+      {
+        "id": 1,
+        "__component": "section.section-grid",
+        "title": "MY GRID",
+        "description": "Uma breve descrição.",
+        "metadata": {
+          "id": 2,
+          "name": "grid-one",
+          "section_id": "grid-one",
+          "background": true
+        },
+        "text_grid": [
+          {
+            "id": 1,
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n"
+          },
+          {
+            "id": 2,
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n"
+          },
+          {
+            "id": 3,
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n"
+          }
+        ],
+        "image_grid": []
+      }
+    ],
+    "menu": {
+      "id": 1,
+      "logo_link": "#home",
+      "logo_text": "Logo",
+      "logo": {
+        "data": null
+      },
+      "menu_links": [
+        {
+          "id": 1,
+          "link_text": "intro",
+          "url": "#intro",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 2,
+          "link_text": "grid-one",
+          "url": "#grid-one",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 3,
+          "link_text": "gallery",
+          "url": "#gallery",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 4,
+          "link_text": "grid-two",
+          "url": "#grid-two",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 5,
+          "link_text": "pricing",
+          "url": "#pricing",
+          "open_in_new_tab": false
+        },
+        {
+          "id": 6,
+          "link_text": "contact",
+          "url": "#contact",
+          "open_in_new_tab": false
+        }
+      ]
+    },
+
+    "meta": {
+      "pagination": {
+        "page": 1,
+        "pageSize": 1,
+        "pageCount": 1,
+        "total": 1
+      }
+    }
+  }
+]
