@@ -1,11 +1,10 @@
 [
   {
     "id": 1,
-
     "title": "home",
     "slug": "home",
     "createdAt": "2022-12-09T23:55:55.028Z",
-    "updatedAt": "2022-12-12T20:29:10.867Z",
+    "updatedAt": "2023-02-03T23:59:40.023Z",
     "publishedAt": "2022-12-10T00:09:23.058Z",
     "footer_text": "Feito com ❤ por Otávio Miranda",
     "sections": [
@@ -95,7 +94,30 @@
       "logo_link": "#home",
       "logo_text": "Logo",
       "logo": {
-        "data": null
+        "data": {
+          "id": 3,
+          "attributes": {
+            "name": "logo.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 47,
+            "height": 9,
+            "formats": null,
+            "hash": "logo_05122ad5c1",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 2.51,
+            "url": "https://res.cloudinary.com/teste-blirag/image/upload/v1675468741/logo_05122ad5c1.svg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "logo_05122ad5c1",
+              "resource_type": "image"
+            },
+            "createdAt": "2023-02-03T23:59:02.957Z",
+            "updatedAt": "2023-02-03T23:59:02.957Z"
+          }
+        }
       },
       "menu_links": [
         {
@@ -136,7 +158,6 @@
         }
       ]
     },
-
     "meta": {
       "pagination": {
         "page": 1,
