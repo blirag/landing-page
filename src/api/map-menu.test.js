@@ -33,6 +33,7 @@ describe('map menu', () => {
         },
       ],
     });
+
     expect(menu.newTab).toBe(false);
     expect(menu.text).toBe('Logo');
     expect(menu.srcImg).toBe('logo.svg');
@@ -47,7 +48,7 @@ describe('map menu', () => {
     expect(links).toEqual([]);
   });
 
-  it('should map links if links passed', () => {
+  it('should map links if it passes', () => {
     const links = mapMenuLinks([
       {
         link_text: 'intro',
