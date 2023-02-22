@@ -63,9 +63,15 @@ export const mockImageGrid = {
   text_grid: [],
   image_grid: [
     {
-      image: {
-        alternativeText: 'abc',
-        url: 'a.svg',
+      images: {
+        data: [
+          {
+            attributes: {
+              alternativeText: 'abc',
+              url: 'a.svg',
+            },
+          },
+        ],
       },
     },
   ],
